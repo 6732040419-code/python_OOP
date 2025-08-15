@@ -1,6 +1,7 @@
 class Employee:
     def __init__(self, name, salary, department):
         # protected attribute
+        self._name = name
         self.__salary = salary
         self.__department = department
 
